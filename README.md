@@ -78,17 +78,16 @@ Memory-Pawnshop/
 
 ## 快速开始
 
-### 查看完整剧本
-阅读 [`script/main_script.md`](script/main_script.md) 查看15集完整剧本
+### 🚀 新手必读
+阅读 [`docs/quick_start.md`](docs/quick_start.md) - **5分钟快速了解项目**
 
-### 了解角色设定
-阅读 [`docs/characters.md`](docs/characters.md) 查看主要角色档案
+### 📖 详细文档
 
-### 视觉设计参考
-阅读 [`docs/visual_design.md`](docs/visual_design.md) 查看场景、道具、服装设计
-
-### 制作执行方案
-阅读 [`docs/production_guide.md`](docs/production_guide.md) 查看拍摄计划和预算方案
+- **[完整剧本](script/main_script.md)** - 15集完整剧本
+- **[分集大纲](docs/episode_breakdown.md)** - 每集情节、情绪曲线
+- **[角色档案](docs/characters.md)** - 角色设定、人物弧光
+- **[视觉设计](docs/visual_design.md)** - 场景、道具、服装设计
+- **[制作指南](docs/production_guide.md)** - 拍摄计划、预算方案
 
 ---
 
