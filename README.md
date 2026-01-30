@@ -3,6 +3,8 @@
 ![Status](https://img.shields.io/badge/status-in%20development-yellow)
 ![Genre](https://img.shields.io/badge/genre-科幻悬疑-blue)
 ![Episodes](https://img.shields.io/badge/episodes-12-green)
+![Chapters](https://img.shields.io/badge/chapters-100--120-orange)
+![Words](https://img.shields.io/badge/words-200k--250k-purple)
 
 ## 项目简介
 
@@ -10,6 +12,8 @@
 
 **类型**：科幻悬疑短剧  
 **集数**：12集（每集约15分钟）  
+**章节版**：100-120章（每章1800-2000字）  
+**总字数**：20-25万字  
 **核心概念**："贫穷限制了想象力，也限制了你拥有美好记忆的权利。"
 
 ---
@@ -47,13 +51,17 @@
 
 ```
 Memory-Pawnshop/
-├── README.md                 # 项目说明
-├── script/                   # 剧本目录
-│   └── main_script.md       # 主剧本（含分集大纲和第1集完整剧本）
-├── docs/                     # 文档目录
-│   ├── world_building.md    # 世界观设定
-│   ├── character_profiles.md # 人物小传
-│   └── production_guide.md  # 制作指南
+├── README.md                     # 项目说明
+├── script/                       # 剧本目录
+│   ├── main_script.md           # 主剧本（含分集大纲和第1集完整剧本）
+│   └── chapters_01_05.md        # 章节版示例（第1-5章）
+├── docs/                         # 文档目录
+│   ├── project_specification.md # 项目规格说明书
+│   ├── chapter_structure_guide.md # 章节创作指南
+│   ├── world_building.md        # 世界观设定
+│   ├── character_profiles.md   # 人物小传
+│   ├── production_guide.md     # 制作指南
+│   └── quick_start.md          # 快速开始指南
 ```
 
 ---
@@ -62,6 +70,15 @@ Memory-Pawnshop/
 
 ### 📝 [主剧本](script/main_script.md)
 包含完整的故事梗概、12集分集大纲，以及第1集的完整剧本。
+
+### 📋 [项目规格说明书](docs/project_specification.md)
+完整的技术规范、创作标准、质量控制标准和100-120章整体规划。
+
+### 📖 [章节版示例](script/chapters_01_05.md)
+100-120章节格式的前5章示例，严格遵循短剧节奏，包含"黄金三秒"和"结尾钩子"。
+
+### ✍️ [章节创作指南](docs/chapter_structure_guide.md)
+详细的章节创作规范和技巧，包括"黄金三秒"和"结尾钩子"的实现方法。
 
 ### 🌍 [世界观设定](docs/world_building.md)
 详细描述2087年的未来世界、记忆技术体系、社会结构、法律伦理等。
@@ -75,6 +92,12 @@ Memory-Pawnshop/
 ---
 
 ## 创作特色
+
+### 🎭 短剧节奏与章节结构
+- **双格式并行**：12集短剧版 + 100-120章网文版
+- **章节节奏**：严格遵循"黄金三秒"开场和"结尾钩子"设计
+- **单章规格**：1800-2000字，快速推进，密集悬念
+- **总体量**：20-25万字，适合连载和影视改编
 
 ### 🔮 高概念科幻
 - 独特的"记忆买卖"设定
@@ -122,6 +145,9 @@ Memory-Pawnshop/
 - [x] 人物设计完成
 - [x] 12集分集大纲完成
 - [x] 第1集剧本完成
+- [x] 章节创作指南完成
+- [x] 前5章示例完成
+- [ ] 完整100-120章创作中
 - [ ] 完整剧本创作中
 - [ ] 制作团队组建
 - [ ] 拍摄筹备
