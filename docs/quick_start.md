@@ -9,22 +9,24 @@
 如果你是第一次接触这个项目，建议按以下顺序阅读：
 
 1. **[README.md](../README.md)** - 项目概览和基本信息
-2. **[故事梗概](../script/main_script.md#故事梗概)** - 了解核心故事
-3. **[章节创作指南](chapter_structure_guide.md)** - 理解章节结构和创作规范
-4. **[章节示例](../script/chapters_01_05.md)** - 查看实际章节格式
-5. **[世界观设定](world_building.md)** - 理解未来世界和记忆技术
-6. **[人物小传](character_profiles.md)** - 认识主要角色
+2. **[项目规格说明书](project_specification.md)** - 完整的技术规范和创作标准
+3. **[故事梗概](../script/main_script.md#故事梗概)** - 了解核心故事
+4. **[章节创作指南](chapter_structure_guide.md)** - 理解章节结构和创作规范
+5. **[章节示例](../script/chapters_01_05.md)** - 查看实际章节格式
+6. **[世界观设定](world_building.md)** - 理解未来世界和记忆技术
+7. **[人物小传](character_profiles.md)** - 认识主要角色
 
 ### 创作人员阅读
 
 如果你是参与创作的编剧、导演或其他主创：
 
-1. **[章节创作指南](chapter_structure_guide.md)** - 必读！章节创作规范和技巧
-2. **[章节示例](../script/chapters_01_05.md)** - 学习"黄金三秒"和"结尾钩子"
-3. **[完整剧本](../script/main_script.md)** - 分集大纲和第1集完整剧本
-4. **[世界观设定](world_building.md)** - 确保创作符合世界观逻辑
-5. **[人物小传](character_profiles.md)** - 深入理解角色动机
-6. **[制作指南](production_guide.md)** - 视觉风格和制作规范
+1. **[项目规格说明书](project_specification.md)** - 必读！完整的创作标准和规范
+2. **[章节创作指南](chapter_structure_guide.md)** - 必读！章节创作规范和技巧
+3. **[章节示例](../script/chapters_01_05.md)** - 学习"黄金三秒"和"结尾钩子"
+4. **[完整剧本](../script/main_script.md)** - 分集大纲和第1集完整剧本
+5. **[世界观设定](world_building.md)** - 确保创作符合世界观逻辑
+6. **[人物小传](character_profiles.md)** - 深入理解角色动机
+7. **[制作指南](production_guide.md)** - 视觉风格和制作规范
 
 ### 制片/投资方阅读
 
