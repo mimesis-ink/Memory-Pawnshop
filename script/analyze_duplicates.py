@@ -18,8 +18,12 @@ MIN_SENTENCE_LENGTH = 10     # 句子最小长度
 
 def read_chapter(filepath):
     """读取章节文件"""
-    with open(filepath, 'r', encoding='utf-8') as f:
-        return f.read()
+    try:
+        with open(filepath, 'r', encoding='utf-8') as f:
+            return f.read()
+    except (IOError, UnicodeDecodeError) as e:
+        print(f"⚠ 警告: 无法读取文件 {filepath}: {e}")
+        return ""
 
 def extract_paragraphs(content):
     """提取段落（去除空行和标题）"""

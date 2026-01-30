@@ -11,8 +11,12 @@ from collections import defaultdict
 
 def read_chapter(filepath):
     """读取章节文件"""
-    with open(filepath, 'r', encoding='utf-8') as f:
-        return f.read()
+    try:
+        with open(filepath, 'r', encoding='utf-8') as f:
+            return f.read()
+    except (IOError, UnicodeDecodeError) as e:
+        print(f"⚠ 警告: 无法读取文件 {filepath}: {e}")
+        return ""
 
 def extract_character_info(content, chapter_num):
     """提取角色相关信息"""
@@ -164,7 +168,8 @@ def check_timeline_consistency(all_timeline):
     if date_list:
         print(f"发现的日期引用: {', '.join(date_list)}\n")
         
-        # 检查是否有日期倒序
+        # 检查是否有日期倒序（注意：假设所有日期在同一年内）
+        print("注意: 日期比较假设所有日期在同一年内。跨年的情况可能产生误报。\n")
         for i in range(len(date_list) - 1):
             curr_date = date_list[i]
             next_date = date_list[i+1]

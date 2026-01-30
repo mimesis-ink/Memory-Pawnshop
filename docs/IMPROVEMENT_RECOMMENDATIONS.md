@@ -257,9 +257,9 @@ grep -r "9月1日" script/chapters/
 
 ```bash
 # 每创作10章后运行一次
-cd /home/runner/work/Memory-Pawnshop/Memory-Pawnshop
-python3 script/analyze_duplicates.py
-python3 script/analyze_logic.py
+cd script
+python3 analyze_duplicates.py
+python3 analyze_logic.py
 ```
 
 ---
