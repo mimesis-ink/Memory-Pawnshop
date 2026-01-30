@@ -15,8 +15,8 @@
 
 **使用方法**:
 ```bash
-cd /home/runner/work/Memory-Pawnshop/Memory-Pawnshop
-python3 script/analyze_duplicates.py
+cd script
+python3 analyze_duplicates.py
 ```
 
 **输出**:
@@ -36,8 +36,8 @@ python3 script/analyze_duplicates.py
 
 **使用方法**:
 ```bash
-cd /home/runner/work/Memory-Pawnshop/Memory-Pawnshop
-python3 script/analyze_logic.py
+cd script
+python3 analyze_logic.py
 ```
 
 **输出**:

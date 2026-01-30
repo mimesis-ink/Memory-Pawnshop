@@ -11,6 +11,11 @@ from collections import defaultdict
 from difflib import SequenceMatcher
 import hashlib
 
+# 配置常量
+SIMILARITY_THRESHOLD = 0.85  # 相似度阈值
+MIN_PARAGRAPH_LENGTH = 20    # 段落最小长度
+MIN_SENTENCE_LENGTH = 10     # 句子最小长度
+
 def read_chapter(filepath):
     """读取章节文件"""
     with open(filepath, 'r', encoding='utf-8') as f:
@@ -61,7 +66,7 @@ def find_exact_duplicates(chapters_data):
     
     for chapter_num, paragraphs in chapters_data.items():
         for i, para in enumerate(paragraphs):
-            if len(para) > 20:  # 只检查长度大于20字符的段落
+            if len(para) > MIN_PARAGRAPH_LENGTH:  # 只检查长度大于配置值的段落
                 para_hash = compute_hash(para)
                 para_map[para_hash].append((chapter_num, i, para))
     
@@ -131,7 +136,7 @@ def find_repeated_sentences(chapters_data):
         content = ' '.join(paragraphs)
         sentences = extract_sentences(content)
         for sentence in sentences:
-            if len(sentence) > 10:  # 只检查较长的句子
+            if len(sentence) > MIN_SENTENCE_LENGTH:  # 只检查较长的句子
                 sentence_map[sentence].append(chapter_num)
     
     repeated = {k: v for k, v in sentence_map.items() if len(set(v)) > 1}
@@ -182,7 +187,8 @@ def check_chapter_titles(chapters_data, chapter_files):
 
 def main():
     # 获取章节文件
-    chapters_dir = '/home/runner/work/Memory-Pawnshop/Memory-Pawnshop/script/chapters'
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    chapters_dir = os.path.join(script_dir, 'chapters')
     chapter_files = {}
     
     for i in range(1, 51):
@@ -205,7 +211,7 @@ def main():
     
     total_issues += check_chapter_titles(chapters_data, chapter_files)
     total_issues += find_exact_duplicates(chapters_data)
-    total_issues += find_similar_paragraphs(chapters_data, threshold=0.85)
+    total_issues += find_similar_paragraphs(chapters_data, threshold=SIMILARITY_THRESHOLD)
     total_issues += find_repeated_sentences(chapters_data)
     
     # 生成总结

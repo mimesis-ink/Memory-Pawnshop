@@ -319,7 +319,8 @@ def analyze_chapter_structure(chapters_data):
 
 def main():
     # 获取章节文件
-    chapters_dir = '/home/runner/work/Memory-Pawnshop/Memory-Pawnshop/script/chapters'
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    chapters_dir = os.path.join(script_dir, 'chapters')
     chapters_data = {}
     
     for i in range(1, 51):
