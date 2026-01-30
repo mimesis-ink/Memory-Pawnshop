@@ -54,7 +54,12 @@ Memory-Pawnshop/
 ├── README.md                     # 项目说明
 ├── script/                       # 剧本目录
 │   ├── main_script.md           # 主剧本（含分集大纲和第1集完整剧本）
-│   └── chapters_01_05.md        # 章节版示例（第1-5章）
+│   ├── chapters/                # 单章目录（第1-10章，已拆分排序）
+│   │   ├── chapter_01.md       # 第1章：血色支票
+│   │   ├── chapter_02.md       # 第2章：消失的六小时
+│   │   └── ...                 # 其他章节
+│   ├── chapters_01_05.md        # 章节版示例（第1-5章，合并版）
+│   └── chapters_06_10.md        # 章节版示例（第6-10章，合并版）
 ├── docs/                         # 文档目录
 │   ├── project_specification.md # 项目规格说明书
 │   ├── chapter_structure_guide.md # 章节创作指南
@@ -74,8 +79,8 @@ Memory-Pawnshop/
 ### 📋 [项目规格说明书](docs/project_specification.md)
 完整的技术规范、创作标准、质量控制标准和100-120章整体规划。
 
-### 📖 [章节版示例](script/chapters_01_05.md)
-100-120章节格式的前5章示例，严格遵循短剧节奏，包含"黄金三秒"和"结尾钩子"。
+### 📖 [章节版](script/chapters/)
+100-120章节格式，现已拆分为单独的章节文件（第1-10章），严格遵循短剧节奏，包含"黄金三秒"和"结尾钩子"。每章独立成文，便于阅读和管理。
 
 ### ✍️ [章节创作指南](docs/chapter_structure_guide.md)
 详细的章节创作规范和技巧，包括"黄金三秒"和"结尾钩子"的实现方法。
