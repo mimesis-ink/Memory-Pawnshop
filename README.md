@@ -10,8 +10,7 @@
 
 **剧名**：《记忆当铺：我卖掉了杀你的记忆》（Memory Pawnshop: I Sold the Memory of Killing You）
 
-**类型**：科幻悬疑短剧  
-**集数**：12集（每集约15分钟）  
+**类型**：科幻悬疑小说  
 **章节版**：90章（每章1800-2000字）  
 **总字数**：约18万字  
 **核心概念**："贫穷限制了想象力，也限制了你拥有美好记忆的权利。"
@@ -56,7 +55,7 @@
 Memory-Pawnshop/
 ├── README.md                     # 项目说明
 ├── script/                       # 剧本目录
-│   ├── main_script.md           # 主剧本（含分集大纲、90章映射和第1集完整剧本）
+│   ├── main_script.md           # 主剧本（含12集分集大纲、90章映射）
 │   ├── chapters/                # 单章目录（第1-90章，已完成）
 │   │   ├── README.md            # 章节导读
 │   │   ├── chapter_01.md       # 第1章：血色支票
@@ -71,7 +70,6 @@ Memory-Pawnshop/
 │   ├── character_profiles.md   # 人物小传
 │   ├── shenwei_linshen_romance.md # 沈微与林深的恋情发展
 │   ├── police_chief_identity_clarification.md # 警局长身份与动机详解
-│   ├── production_guide.md     # 制作指南
 │   ├── writing_assistant_prompt.md # AI写作助手系统提示词
 │   └── quick_start.md          # 快速开始指南
 ```
@@ -81,7 +79,7 @@ Memory-Pawnshop/
 ## 文档说明
 
 ### 📝 [主剧本](script/main_script.md)
-包含完整的故事梗概、12集分集大纲、90章章节映射，以及第1集的完整剧本。
+包含完整的故事梗概、12集分集大纲、90章章节映射。
 
 ### 📋 [项目规格说明书](docs/project_specification.md)
 完整的技术规范、创作标准、质量控制标准和章节整体规划。
@@ -106,9 +104,6 @@ Memory-Pawnshop/
 
 ### 🔍 [警局长身份与动机详解](docs/police_chief_identity_clarification.md)
 详细澄清警局长角色的真实身份和动机，解决故事中看似矛盾的情节点，深度分析这一悲剧角色的多重身份层次。
-
-### 🎬 [制作指南](docs/production_guide.md)
-视觉风格、场景设计、音效设计、拍摄计划、预算估算等制作参考。
 
 ### 🤖 [AI写作助手系统提示词](docs/writing_assistant_prompt.md)
 为AI写作助手设计的系统提示词，定义赛博朋克和黑色电影风格的写作规范，通过环境描写隐喻人物内心，协助创作符合《记忆当铺》基调的高质量内容。配合 **[使用示例](docs/writing_assistant_usage_example.md)** 效果更佳。
@@ -168,13 +163,9 @@ Memory-Pawnshop/
 - [x] 世界观设定完成
 - [x] 人物设计完成
 - [x] 12集分集大纲完成
-- [x] 第1集剧本完成
 - [x] 章节创作指南完成
 - [x] 全部90章完成
 - [x] main_script.md 章节映射完成
-- [ ] 完整12集剧本创作中
-- [ ] 制作团队组建
-- [ ] 拍摄筹备
 
 ---
 
