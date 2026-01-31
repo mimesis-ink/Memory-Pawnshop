@@ -12,7 +12,7 @@
 - ✅ **时间线文档** (docs/timeline.md)
 - ✅ **人物小传** (docs/character_profiles.md)
 - ✅ **世界观设定** (docs/world_building.md)
-- ✅ **其他相关文档** (shenwei_linshen_romance.md, police_chief_identity_clarification.md等)
+- ✅ **其他相关文档** (police_chief_identity_clarification.md等)
 
 ### 验证方法
 1. 使用 explore agent 系统性提取所有时间、日期、人物、技术描述
