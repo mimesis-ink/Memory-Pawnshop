@@ -68,7 +68,6 @@ Memory-Pawnshop/
 │   ├── timeline.md             # 故事时间线
 │   ├── world_building.md        # 世界观设定
 │   ├── character_profiles.md   # 人物小传
-│   ├── shenwei_linshen_romance.md # 沈微与林深的恋情发展
 │   ├── police_chief_identity_clarification.md # 警局长身份与动机详解
 │   ├── writing_assistant_prompt.md # AI写作助手系统提示词
 │   └── quick_start.md          # 快速开始指南
@@ -98,9 +97,6 @@ Memory-Pawnshop/
 
 ### 👥 [人物小传](docs/character_profiles.md)
 主要角色的深度解析，包括背景故事、性格特点、人物关系等。
-
-### 💕 [沈微与林深的恋情发展](docs/shenwei_linshen_romance.md)
-详细记录沈微与林深三年恋情的完整发展过程（2084-2087年9月），包括相识、确立关系、共同理想、危机考验、生死离别等各阶段的详细场景和对话。
 
 ### 🔍 [警局长身份与动机详解](docs/police_chief_identity_clarification.md)
 详细澄清警局长角色的真实身份和动机，解决故事中看似矛盾的情节点，深度分析这一悲剧角色的多重身份层次。
