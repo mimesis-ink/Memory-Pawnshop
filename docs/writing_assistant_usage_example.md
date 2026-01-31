@@ -169,4 +169,4 @@ A：检查是否包含这些元素：
 
 ---
 
-**提示**：本文档与 **[AI写作助手系统提示词](writing_assistant_prompt.md)** 配合使用效果最佳。
+**提示**： 本文档与 **[AI写作助手系统提示词](writing_assistant_prompt.md)** 配合使用效果最佳。
