@@ -1,7 +1,7 @@
 {
   "summary": {
     "total_chapters": 90,
-    "total_issues": 84
+    "total_issues": 83
   },
   "first_appearances": {
     "林深": 1,
@@ -18,12 +18,6 @@
     "周明": 85
   },
   "timeline_issues": [
-    {
-      "type": "error",
-      "chapter": 11,
-      "title": "记忆黑市",
-      "message": "时间倒流: 从12月18日到12月17日"
-    },
     {
       "type": "warning",
       "chapter": 12,
