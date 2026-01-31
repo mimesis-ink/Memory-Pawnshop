@@ -77,15 +77,14 @@ Memory-Pawnshop/
 ├── README.md
 ├── CONTRIBUTING.md
 ├── script/
-│   ├── main_script.md           # 12集短剧版
+│   ├── main_script.md           # 12集分集大纲 + 90章映射
 │   └── chapters_01_05.md        # 章节版示例（1-5章）
 └── docs/
-    ├── project_specification.md  # 项目规格说明书 ⭐新增
-    ├── chapter_structure_guide.md # 章节创作指南 ⭐新增
-    ├── quick_start.md            # 快速开始指南（已更新）
+    ├── project_specification.md  # 项目规格说明书 ⭐
+    ├── chapter_structure_guide.md # 章节创作指南 ⭐
+    ├── quick_start.md            # 快速开始指南
     ├── world_building.md
-    ├── character_profiles.md
-    └── production_guide.md
+    └── character_profiles.md
 ```
 
 ## 实施细节
