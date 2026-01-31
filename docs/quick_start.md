@@ -22,11 +22,12 @@
 
 1. **[项目规格说明书](project_specification.md)** - 必读！完整的创作标准和规范
 2. **[章节创作指南](chapter_structure_guide.md)** - 必读！章节创作规范和技巧
-3. **[章节示例](../script/chapters_01_05.md)** - 学习"黄金三秒"和"结尾钩子"
-4. **[完整剧本](../script/main_script.md)** - 分集大纲和第1集完整剧本
-5. **[世界观设定](world_building.md)** - 确保创作符合世界观逻辑
-6. **[人物小传](character_profiles.md)** - 深入理解角色动机
-7. **[制作指南](production_guide.md)** - 视觉风格和制作规范
+3. **[AI写作助手系统提示词](writing_assistant_prompt.md)** - 推荐！赛博朋克和黑色电影风格写作指南
+4. **[章节示例](../script/chapters_01_05.md)** - 学习"黄金三秒"和"结尾钩子"
+5. **[完整剧本](../script/main_script.md)** - 分集大纲和第1集完整剧本
+6. **[世界观设定](world_building.md)** - 确保创作符合世界观逻辑
+7. **[人物小传](character_profiles.md)** - 深入理解角色动机
+8. **[制作指南](production_guide.md)** - 视觉风格和制作规范
 
 ### 制片/投资方阅读
 
