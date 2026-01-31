@@ -72,6 +72,7 @@ Memory-Pawnshop/
 │   ├── shenwei_linshen_romance.md # 沈微与林深的恋情发展
 │   ├── police_chief_identity_clarification.md # 警局长身份与动机详解
 │   ├── production_guide.md     # 制作指南
+│   ├── writing_assistant_prompt.md # AI写作助手系统提示词
 │   └── quick_start.md          # 快速开始指南
 ```
 
@@ -108,6 +109,9 @@ Memory-Pawnshop/
 
 ### 🎬 [制作指南](docs/production_guide.md)
 视觉风格、场景设计、音效设计、拍摄计划、预算估算等制作参考。
+
+### 🤖 [AI写作助手系统提示词](docs/writing_assistant_prompt.md)
+为AI写作助手设计的系统提示词，定义赛博朋克和黑色电影风格的写作规范，通过环境描写隐喻人物内心，协助创作符合《记忆当铺》基调的高质量内容。配合 **[使用示例](docs/writing_assistant_usage_example.md)** 效果更佳。
 
 ---
 
