@@ -175,7 +175,6 @@
 - [x] quick_start.md - 快速开始指南
 
 ### 特殊文档 ✅
-- [x] shenwei_linshen_romance.md - 沈微与林深的恋情发展
 - [x] police_chief_identity_clarification.md - 警局长身份详解
 - [x] timeline_update_guide.md - 时间线更新指南
 
