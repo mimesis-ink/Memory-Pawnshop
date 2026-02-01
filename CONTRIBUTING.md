@@ -140,7 +140,7 @@ git push origin feature/your-feature-name
 
 - 文件名使用小写字母和下划线
 - 使用有意义的描述性名称
-- 例如：`episode_02_script.md`
+- 例如：`chapter_02.md`
 
 ## 内容要求
 
