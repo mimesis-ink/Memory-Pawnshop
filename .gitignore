@@ -30,3 +30,6 @@
 Thumbs.db
 desktop.ini
 *.backup
+
+# Generated verification files
+verification_report.json
