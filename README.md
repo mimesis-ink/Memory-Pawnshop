@@ -61,15 +61,6 @@ Memory-Pawnshop/
 │   │   ├── chapter_02.md       # 第2章：消失的六小时
 │   │   └── ...                 # 其他章节（至第90章）
 │   └── chapters_06_10.md        # 章节版示例（第6-10章，合并版）
-├── docs/                         # 文档目录
-│   ├── project_specification.md # 项目规格说明书
-│   ├── chapter_structure_guide.md # 章节创作指南
-│   ├── timeline.md             # 故事时间线
-│   ├── world_building.md        # 世界观设定
-│   ├── character_profiles.md   # 人物小传
-│   ├── police_chief_identity_clarification.md # 警局长身份与动机详解
-│   ├── writing_assistant_prompt.md # AI写作助手系统提示词
-│   └── quick_start.md          # 快速开始指南
 ```
 
 ---
@@ -79,29 +70,8 @@ Memory-Pawnshop/
 ### 📝 [主要内容说明](script/main_script.md)
 包含完整的故事梗概和章节结构。
 
-### 📋 [项目规格说明书](docs/project_specification.md)
-完整的技术规范、创作标准、质量控制标准和章节整体规划。
-
 ### 📖 [章节版](script/chapters/)
 90章节格式，已全部完成并拆分为单独的章节文件（第1-90章），包含"黄金三秒"和"结尾钩子"。每章独立成文，便于阅读和管理。
-
-### ✍️ [章节创作指南](docs/chapter_structure_guide.md)
-详细的章节创作规范和技巧，包括"黄金三秒"和"结尾钩子"的实现方法。
-
-### 📅 [故事时间线](docs/timeline.md)
-完整的故事时间线，标注所有关键事件的具体日期，供创作新章节时参考和手动更新。
-
-### 🌍 [世界观设定](docs/world_building.md)
-详细描述2087年的未来世界、记忆技术体系、社会结构、法律伦理等。
-
-### 👥 [人物小传](docs/character_profiles.md)
-主要角色的深度解析，包括背景故事、性格特点、人物关系等。
-
-### 🔍 [警局长身份与动机详解](docs/police_chief_identity_clarification.md)
-详细澄清警局长角色的真实身份和动机，解决故事中看似矛盾的情节点，深度分析这一悲剧角色的多重身份层次。
-
-### 🤖 [AI写作助手系统提示词](docs/writing_assistant_prompt.md)
-为AI写作助手设计的系统提示词，定义赛博朋克和黑色电影风格的写作规范，通过环境描写隐喻人物内心，协助创作符合《记忆当铺》基调的高质量内容。配合 **[使用示例](docs/writing_assistant_usage_example.md)** 效果更佳。
 
 ---
 
