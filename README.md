@@ -2,16 +2,15 @@
 
 ![Status](https://img.shields.io/badge/status-in%20development-yellow)
 ![Genre](https://img.shields.io/badge/genre-科幻悬疑-blue)
-![Episodes](https://img.shields.io/badge/episodes-12-green)
 ![Chapters](https://img.shields.io/badge/chapters-90-orange)
 ![Words](https://img.shields.io/badge/words-180k-purple)
 
 ## 项目简介
 
-**剧名**：《记忆当铺：我卖掉了杀你的记忆》（Memory Pawnshop: I Sold the Memory of Killing You）
+**书名**：《记忆当铺：我卖掉了杀你的记忆》（Memory Pawnshop: I Sold the Memory of Killing You）
 
 **类型**：科幻悬疑小说  
-**章节版**：90章（每章1800-2000字）  
+**章节数**：90章（每章1800-2000字）  
 **总字数**：约18万字  
 **核心概念**："贫穷限制了想象力，也限制了你拥有美好记忆的权利。"
 
@@ -54,8 +53,8 @@
 ```
 Memory-Pawnshop/
 ├── README.md                     # 项目说明
-├── script/                       # 剧本目录
-│   ├── main_script.md           # 主剧本（含12集分集大纲、90章映射）
+├── script/                       # 小说目录
+│   ├── main_script.md           # 主要内容说明
 │   ├── chapters/                # 单章目录（第1-90章，已完成）
 │   │   ├── README.md            # 章节导读
 │   │   ├── chapter_01.md       # 第1章：血色支票
@@ -77,14 +76,14 @@ Memory-Pawnshop/
 
 ## 文档说明
 
-### 📝 [主剧本](script/main_script.md)
-包含完整的故事梗概、12集分集大纲、90章章节映射。
+### 📝 [主要内容说明](script/main_script.md)
+包含完整的故事梗概和章节结构。
 
 ### 📋 [项目规格说明书](docs/project_specification.md)
 完整的技术规范、创作标准、质量控制标准和章节整体规划。
 
 ### 📖 [章节版](script/chapters/)
-90章节格式，已全部完成并拆分为单独的章节文件（第1-90章），严格遵循短剧节奏，包含"黄金三秒"和"结尾钩子"。每章独立成文，便于阅读和管理。
+90章节格式，已全部完成并拆分为单独的章节文件（第1-90章），包含"黄金三秒"和"结尾钩子"。每章独立成文，便于阅读和管理。
 
 ### ✍️ [章节创作指南](docs/chapter_structure_guide.md)
 详细的章节创作规范和技巧，包括"黄金三秒"和"结尾钩子"的实现方法。
@@ -108,11 +107,10 @@ Memory-Pawnshop/
 
 ## 创作特色
 
-### 🎭 短剧节奏与章节结构
-- **双格式并行**：12集短剧版 + 90章网文版
+### 🎭 章节结构
 - **章节节奏**：严格遵循"黄金三秒"开场和"结尾钩子"设计
 - **单章规格**：1800-2000字，快速推进，密集悬念
-- **总体量**：约18万字，适合连载和影视改编
+- **总体量**：约18万字，适合连载
 
 ### 🔮 高概念科幻
 - 独特的"记忆买卖"设定
@@ -158,10 +156,8 @@ Memory-Pawnshop/
 - [x] 故事梗概完成
 - [x] 世界观设定完成
 - [x] 人物设计完成
-- [x] 12集分集大纲完成
 - [x] 章节创作指南完成
 - [x] 全部90章完成
-- [x] main_script.md 章节映射完成
 
 ---
 
