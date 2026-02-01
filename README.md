@@ -66,6 +66,10 @@
 ```
 Memory-Pawnshop/
 ├── README.md                     # 项目说明
+├── docs/                         # 写作指南文档
+│   ├── writing_style_guide.md   # 写作风格指南（赛博朋克+黑色电影）
+│   ├── chapter_writing_workflow.md  # 章节创作流程
+│   └── quick_reference.md       # 写作快速参考
 ├── script/                       # 小说目录
 │   ├── main_script.md           # 主要内容说明
 │   ├── chapters/                # 单章目录（第1-90章，已完成）
@@ -74,17 +78,25 @@ Memory-Pawnshop/
 │   │   ├── chapter_02.md       # 第2章：消失的六小时
 │   │   └── ...                 # 其他章节（至第90章）
 │   └── chapters_06_10.md        # 章节版示例（第6-10章，合并版）
+└── .github/
+    └── copilot-instructions.md  # AI写作助手指令
 ```
 
 ---
 
 ## 文档说明
 
-### 📝 [主要内容说明](script/main_script.md)
-包含完整的故事梗概和章节结构。
+### 📝 核心文档
 
-### 📖 [章节版](script/chapters/)
-90章节格式，已全部完成并拆分为单独的章节文件（第1-90章），包含"黄金三秒"和"结尾钩子"。每章独立成文，便于阅读和管理。
+- **[主要内容说明](script/main_script.md)** - 完整的故事梗概和章节结构
+- **[章节版](script/chapters/)** - 90章节格式，已全部完成并拆分为单独的章节文件（第1-90章），包含"黄金三秒"和"结尾钩子"。每章独立成文，便于阅读和管理
+
+### 🎨 写作指南
+
+- **[写作风格指南](docs/writing_style_guide.md)** - 赛博朋克与黑色电影风格详解，环境描写隐喻技法
+- **[章节创作流程](docs/chapter_writing_workflow.md)** - 完整的章节创作流程，从准备到检查的全套指南
+- **[写作快速参考](docs/quick_reference.md)** - 速查表，包含常用技巧、模板和检查清单
+- **[AI写作助手指令](.github/copilot-instructions.md)** - AI创作的完整设定和规范
 
 ---
 

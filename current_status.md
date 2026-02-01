@@ -39,6 +39,9 @@
 - [x] writing_assistant_prompt.md - AI写作助手提示词
 - [x] writing_assistant_usage_example.md - 写作助手使用示例
 - [x] quick_start.md - 快速开始指南
+- [x] writing_style_guide.md - 写作风格指南（赛博朋克+黑色电影）
+- [x] chapter_writing_workflow.md - 章节创作流程
+- [x] quick_reference.md - 写作快速参考
 
 ### 特殊文档 ✅
 - [x] police_chief_identity_clarification.md - 警局长身份详解
