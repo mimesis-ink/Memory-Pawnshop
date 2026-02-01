@@ -24,7 +24,7 @@
 2. **[章节创作指南](chapter_structure_guide.md)** - 必读！章节创作规范和技巧
 3. **[AI写作助手系统提示词](writing_assistant_prompt.md)** - 推荐！赛博朋克和黑色电影风格写作指南
 4. **[章节示例](../script/chapters_01_05.md)** - 学习"黄金三秒"和"结尾钩子"
-5. **[完整剧本](../script/main_script.md)** - 分集大纲和90章映射
+5. **[完整内容](../script/main_script.md)** - 90章内容概要
 6. **[世界观设定](world_building.md)** - 确保创作符合世界观逻辑
 7. **[人物小传](character_profiles.md)** - 深入理解角色动机
 
@@ -33,7 +33,7 @@
 如果你对项目的商业价值感兴趣：
 
 1. **[README.md](../README.md)** - 项目定位和目标受众
-2. **[分集大纲](../script/main_script.md#分集大纲)** - 故事结构和节奏
+2. **[内容概要](../script/main_script.md)** - 故事结构和节奏
 3. **[章节版本](../script/chapters/)** - 完整90章小说内容
 
 ---
